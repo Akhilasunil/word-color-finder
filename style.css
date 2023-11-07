@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background: #644bff;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 60px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000; 
+}
+
+.inputField {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 70%;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #644bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.colorList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.colorCard {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.colorCard .hexValue {
+    font-size: 14px;
+}
+
+.colorCard:hover {
+    transform: scale(1.05);
+}
