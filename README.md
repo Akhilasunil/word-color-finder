@@ -33,9 +33,4 @@ To run this project locally, follow these steps:
 - `app.js`: Contains the JavaScript code for fetching color data and dynamically generating color cards.
 - `app.html`: The main HTML file that contains the structure of the web application.
 
-## Additional Notes
-
-- The application uses the Poppins font, which is imported from Google Fonts.
-- Colors are fetched from the [color-name-list API](https://unpkg.com/color-name-list/dist/colornames.json) in JSON format.
-- The application is designed to be responsive and user-friendly.
 
