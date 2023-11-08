@@ -25,12 +25,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository
 
-2. Open `app.html` in your preferred web browser.
+2. Open `index.html` in your preferred web browser.
 
 ## Project Structure
 
 - `style.css`: Contains the CSS code for styling the application.
 - `app.js`: Contains the JavaScript code for fetching color data and dynamically generating color cards.
-- `app.html`: The main HTML file that contains the structure of the web application.
+- `index.html`: The main HTML file that contains the structure of the web application.
 
 
